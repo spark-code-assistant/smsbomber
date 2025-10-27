@@ -9,7 +9,7 @@ frequency = 10
  
 # target mobile number, change it to victim's number and
 # also ensure that it's registered on flipkart
-mobile_number ="1234567890"
+mobile_number ="1234567890"  #put your number here
  
 for i in range(frequency):
     browser.get('https://www.flipkart.com/account/login?ret=/')
@@ -32,4 +32,5 @@ for i in range(frequency):
     time.sleep(2)
      
 # Close the browser
+
 browser.quit()
